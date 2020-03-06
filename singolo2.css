@@ -14,7 +14,6 @@ h1{
     font-size: 30px;
     padding-left: 40px;
     padding-top: 66px;
-    font-stretch:normal;
 }
 .about{
     font-family: 'Lato-light',sans-serif;
@@ -51,7 +50,8 @@ a:hover{
 }
 .container1,
 .container2,
-.container3{
+.container3,
+.container4{
     display: flex;
 }
 .box1,
@@ -74,3 +74,61 @@ a:hover{
     padding-top: 19px;
 }
 
+.about_as{
+    height: 734px;
+    background: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+}
+.logo{
+    font-family: 'Lato-black', sans-serif;
+    color: #666d89;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 66px;
+}
+.text{
+    font-family: 'Lato-light', sans-serif;
+    font-size: 18px;
+    color:#767e9e;
+    padding-left: 40px;
+    padding-right: 40px;
+ 
+}
+.boxAdam{
+    background: url(assets/Adam.png) no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 26px;
+}
+.Adam,
+.Desmond,
+.Scolara{
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 18px;
+    color:#666d89;
+    padding-top: 300px;
+}
+.textAdam,
+.textDesmond,
+.textScolara{
+    font-family: 'Lato-Regular',sans-serif;
+    font-size: 12px;
+    color:#767e9e;
+    margin-bottom: 30px;
+}
+.boxDesmond{
+    background: url(assets/Desmond.png) no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.boxScolara{
+    background: url(assets/Scolara.png) no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
